@@ -1,7 +1,26 @@
-.main-link {
+.main-link, .marked-date {
 	background-color: blue;
 }
 
-h2 {
-	color: red;
+.white-sec *{
+	color: white;
+}
+
+#aside-sec a, .title1 {
+	color: blue;
+}
+
+#aside-sec ul {
+	width: 200px;
+	margin: auto;
+}
+
+#aside-sec li {
+	float: left;
+	list-style: none;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-position: y-50px
 }
