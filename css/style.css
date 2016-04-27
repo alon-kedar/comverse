@@ -22,21 +22,30 @@ footer>a, .title1 {
 	list-style: none;
 }
 
+
 #first-sec ul {
-	width: 1000px;
+	width: 1100px;
 	list-style: none;
 	overflow: hidden;
+	margin: auto;
 }
 
 #aside-sec {
 	background: #e3e3e3;
 }
 
+
 #first-sec li {
 	width:300px;
 	height: 180px;
-	margin: 0 10px 15px 0;
+	margin: 20px 20px 15px 0;
 	float: left;
+	padding: 20px;
+}
+
+#first-sec li>a {
+	position: relative;
+	top: 60px;
 }
 
 #top-sec {
@@ -45,7 +54,6 @@ footer>a, .title1 {
 
 #article-1 {
 	background: pink;
-	width: 300px;
 }
 
 #article-2 {
@@ -56,6 +64,18 @@ footer>a, .title1 {
 	background: orange;
 }
 
+
+
+#top-sec>nav {
+	float: left;
+	background: red;
+	width: 700px;
+}
+
+#top-sec>form {
+	float:left;
+	width:300px;
+}
 body {
 	background-repeat: no-repeat;
 	background-position: y-50px
