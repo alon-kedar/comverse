@@ -1,12 +1,13 @@
 .main-link, .marked-date {
 	background-color: blue;
+	color: white;
 }
 
 .white-sec *{
 	color: white;
 }
 
-#aside-sec a, .title1 {
+footer>a, .title1 {
 	color: blue;
 }
 
@@ -17,7 +18,42 @@
 
 #aside-sec li {
 	float: left;
+	margin: 0 10px 15px 0;
 	list-style: none;
+}
+
+#first-sec ul {
+	width: 1000px;
+	list-style: none;
+	overflow: hidden;
+}
+
+#aside-sec {
+	background: #e3e3e3;
+}
+
+#first-sec li {
+	width:300px;
+	height: 180px;
+	margin: 0 10px 15px 0;
+	float: left;
+}
+
+#top-sec {
+	background: yellow;
+}
+
+#article-1 {
+	background: pink;
+	width: 300px;
+}
+
+#article-2 {
+	background: green;
+}
+
+#article-3 {
+	background: orange;
 }
 
 body {
