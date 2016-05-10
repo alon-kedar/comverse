@@ -12,6 +12,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+.padding {
+	width: 1000px;
+	margin: auto;
+}
+
 .main-nav>a {
 	float: left;
 }
@@ -95,7 +100,7 @@ li {
 #first-sec ul,
 #first-sec .main-link{
 	position: relative;
-	left: 100px;
+	/*left: 100px;*/
 }
 
 #first-sec ul {
@@ -122,10 +127,10 @@ li {
 	background: grey;
 }
 
-#top-sec>div{
-	width:1000px;
+#top-sec>div>div{
+	/*width:1000px;*/
 	height: 80px;
-	margin: auto;
+	/*margin: auto;*/
 	padding: 10px;
 }
 
@@ -141,12 +146,11 @@ li {
 	background: hsla(45, 100%, 50%,0.9);
 }
 
-#top-sec>div>nav {
+#top-sec nav {
 	float: left;
-	width: 700px;
 }
 
-#top-sec>div>form {
+#top-sec form {
 	float:left;
 	width:300px;
 }
