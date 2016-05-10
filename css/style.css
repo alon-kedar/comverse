@@ -12,6 +12,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+.main-nav>a {
+	float: left;
+}
+
 #first-sec li {
 	width:250px;
 	height: 150px;
@@ -24,13 +28,22 @@ a:hover {
 .main-link {
 	font-size: 1em;
 	border-radius: 5px;
-	text-align: left 10px;
+	padding: 10px 10px 8px 10px;
+	display: block;
+	width: 180px;
+	height:20px;
+	position: absolute;
+}
+
+.main-link>img{
+	position: absolute;
+	right: 10px;
+	top: 12px;
 }
 
 .main-link,
 .marked-date {
 	background-color: blue;
-	background-size: 100px 60px;
 	color: white;
 	/*text-align: center;*/
 }
