@@ -21,6 +21,16 @@ a:hover {
 	float: left;
 }
 
+#bottom-right {
+    width:300px;
+    /*float: left;*/
+}
+
+#bottom-right {
+    text-align: center;
+    background: rgba(255,255,255,0.7);
+}
+
 #first-sec li {
 	width:250px;
 	height: 150px;
@@ -168,8 +178,21 @@ ul {
 
 #top-sec form {
 	float:left;
-	width:300px;
+	margin-left: 20px;
+	width:240px;
 }
+
+#top-sec label {
+	margin-left: 20px;
+}
+
+#top-sec input {
+	width:140px;
+	margin-top: 27px;
+	border-radius: 5px;
+}
+
+
 
 
 #bottom {
@@ -180,3 +203,6 @@ ul {
 	float: left;
     margin-right: 20px;
 }
+
+
+
