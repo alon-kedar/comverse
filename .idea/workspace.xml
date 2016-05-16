@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="992d87df-08ca-4e1c-90d4-341ad087d535" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.html" afterPath="$PROJECT_DIR$/routes/index.html" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+            <state relative-caret-position="191">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -38,8 +37,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="83" column="82" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="82" />
+            <state relative-caret-position="388">
+              <caret line="147" column="104" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -234,15 +233,15 @@
       <workItem from="1463242423519" duration="628000" />
       <workItem from="1463336477590" duration="1832000" />
       <workItem from="1463338483800" duration="5896000" />
-      <workItem from="1463345549108" duration="5382000" />
+      <workItem from="1463345549108" duration="10121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23320000" />
+    <option name="totallyTimeSpent" value="28059000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10980967" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -362,16 +361,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="83" column="82" selection-start-line="83" selection-start-column="75" selection-end-line="83" selection-end-column="82" />
+        <state relative-caret-position="388">
+          <caret line="147" column="104" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="194" column="1" selection-start-line="194" selection-start-column="1" selection-end-line="194" selection-end-column="1" />
+        <state relative-caret-position="191">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>

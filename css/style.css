@@ -1,5 +1,5 @@
 body {
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: "Open Sans", Georgia, Serif;
 	font-size: 100%;
 	font-weight: 200;
 }
@@ -17,7 +17,7 @@ a:hover {
 }
 
 .padding {
-	width: 1000px;
+	width: 970px;
 	margin: auto;
 }
 
@@ -83,12 +83,16 @@ h2 {
 #first-sec {
 	background-image: url("../img/slider/custom-experience.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
-	height: 500px;
+	background-size: cover;
 }
 
 #second-sec {
 	background: lightblue;
+	height: 500px;
+}
+
+#second-sec h2 {
+	font-size: 2em;
 }
 
 #third-sec {
@@ -179,7 +183,7 @@ ul {
 }
 
 #article-1 {
-	background: rgba(255,0,255,0.9);
+	background: rgba(255,0,255,0.8);
 }
 
 #article-1:hover {
@@ -187,7 +191,7 @@ ul {
 }
 
 #article-2 {
-	background: rgba(0,255,0,0.9);
+	background: rgba(0,255,0,0.8);
 }
 
 #article-2:hover {
@@ -195,7 +199,7 @@ ul {
 }
 
 #article-3 {
-	background: hsla(45, 100%, 50%,0.9);
+	background: hsla(40, 100%, 50%,0.8);
 }
 
 #article-3:hover {
