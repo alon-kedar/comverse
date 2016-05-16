@@ -8,6 +8,10 @@ a {
 	text-decoration: none;
 }
 
+* {
+	margin: 0 0 0 0;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -80,6 +84,7 @@ h2 {
 	background-image: url("../img/slider/custom-experience.jpg");
 	background-repeat: no-repeat;
 	width: 100%;
+	height: 500px;
 }
 
 #second-sec {
@@ -125,10 +130,23 @@ li {
 	/*left: 100px;*/
 }
 
+#first-sec h1 {
+	padding-top: 30px;
+}
+
+#first-sec p {
+	padding-top: 15px;
+}
+
+#first-sec .main-link {
+	margin-top: 20px;
+}
+
 #first-sec ul {
 	/*width: 1100px;*/
 	list-style: none;
 	overflow: hidden;
+	margin-top: 90px;
 }
 
 #aside-sec {
@@ -164,12 +182,24 @@ ul {
 	background: rgba(255,0,255,0.9);
 }
 
+#article-1:hover {
+	background: rgb(250, 66, 158)
+}
+
 #article-2 {
 	background: rgba(0,255,0,0.9);
 }
 
+#article-2:hover {
+	background: rgb(104, 192, 56);
+}
+
 #article-3 {
 	background: hsla(45, 100%, 50%,0.9);
+}
+
+#article-3:hover {
+	background: rgb(225, 116, 20);
 }
 
 #top-sec nav {
@@ -192,7 +222,13 @@ ul {
 	border-radius: 5px;
 }
 
+#news-image:hover {
+	content: url("../img/events/eventListIconNews_hover.png");
+}
 
+#events-image:hover {
+	content: url("../img/events/eventListIconEvents_hover.png")
+}
 
 
 #bottom {
