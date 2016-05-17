@@ -12,6 +12,13 @@ a {
 	margin: 0 0 0 0;
 }
 
+.bg {
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -28,6 +35,7 @@ a:hover {
 #bottom-right {
     width:300px;
     /*float: left;*/
+	display: inline-block;
 }
 
 #bottom-right {
@@ -45,7 +53,7 @@ a:hover {
 }
 
 .main-link {
-	font-size: 1em;
+	font-size: 1rem;
 	border-radius: 5px;
 	padding: 10px 10px 8px 10px;
 	display: block;
@@ -68,7 +76,7 @@ a:hover {
 }
 
 .day {
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 h1,
@@ -82,8 +90,7 @@ h2 {
 
 #first-sec {
 	background-image: url("../img/slider/custom-experience.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-position-y: -20px;
 }
 
 #second-sec {
@@ -92,13 +99,12 @@ h2 {
 }
 
 #second-sec h2 {
-	font-size: 2em;
+	font-size: 2rem;
+	padding-top: 30px;
 }
 
 #third-sec {
 	background-image: url(../img/backgrounds/news-and-events-bg.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 #third-sec li {
@@ -136,6 +142,7 @@ li {
 
 #first-sec h1 {
 	padding-top: 30px;
+	font-size: 2rem;
 }
 
 #first-sec p {
@@ -159,7 +166,7 @@ li {
 }
 
 #third-sec dd {
-	font-size: 1.4em;
+	font-size: 1.4rem;
 }
 
 #first-sec li>a {
@@ -183,7 +190,7 @@ ul {
 }
 
 #article-1 {
-	background: rgba(255,0,255,0.8);
+	background: rgba(250,66,158,0.8);
 }
 
 #article-1:hover {
@@ -191,7 +198,7 @@ ul {
 }
 
 #article-2 {
-	background: rgba(0,255,0,0.8);
+	background: rgba(104,66,158,0.8);
 }
 
 #article-2:hover {
@@ -199,7 +206,7 @@ ul {
 }
 
 #article-3 {
-	background: hsla(40, 100%, 50%,0.8);
+	background: rgba(225, 116, 20, 0.8);
 }
 
 #article-3:hover {
