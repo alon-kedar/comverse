@@ -3,6 +3,7 @@
 <head>
 	<title>comverse</title>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="../css/font-awesome-4.6.1/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
@@ -10,8 +11,8 @@
 	<section id="top-sec">
 		<div>
 			<div class="padding">
+				<a href=""><img src="../img/logo/comverse-logo.png" alt="comverse logo"></a>
 				<nav>
-					<a href=""><img src="../img/logo/comverse-logo.png" alt="comverse logo"></a>
 					<a href="">YOUR NEEDS</a>
 					<a href="">OUR PORTFOLIO</a>
 					<a href="">NEWS & MEDIA</a>
@@ -23,12 +24,11 @@
 						<option value="HE">HE</option>
 					</select>
 					<label for="login">Customer login</label>
-					<!--<div id="submit">-->
-						<input id="login">
-						<button type="submit">
-							<img src="../img/icons/searchBtn.png" alt="search icon">
+					<div id="submit">
+						<input id="login"><button type="submit">
+						<img src="../img/icons/searchBtn.png" alt="search icon">
 						</button>
-					<!--</div>-->
+					</div>
 				</form>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
 			</section>
 			<section class="white-sec" id="second-sec">
 				<div class="padding">
-					<h2>WHAT CAN WE DO FOR YOU?</h2>
+					<h2 class="sec-title">WHAT CAN WE DO FOR YOU?</h2>
 					<nav class="main-nav">
 						<a href=""><img src="../img/solutions/solution_icon_smart-money.png" alt="solution money icon"><br>Data monetization</a>
 						<a href=""><img src="../img/solutions/comverse-logo.png" alt="comverse logo"><br>Machine to machine (M2M)</a>
@@ -76,28 +76,34 @@
 				</div>
 			</section>
 			<section class="white-sec bg" id="third-sec">
-				<h2>WHAT'S HAPPENING AT COMVERSE?</h2>
-				<dl>
-					<dd>NEWS</dd>
-					<li>
-						<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
-						<a href=""><img id="news-image" src="../img/events/eventListIconNews.png" alt="news icon"> All news</a>
-					</li>
-				</dl>
-				<dl>
-					<dd>EVENTS</dd>
-					<li>
-						<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
-						<a href=""><img id="events-image" src="../img/events/eventListIconEvents.png" alt="events icon"> All events</a>
-					</li>
-					<li>
-						<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
-						<a href=""><img src="../img/events/eventListIconEvents.png" alt="events icon"> All events</a>
-					</li>
-				</dl>
+				<div class="padding">
+					<h2 class="sec-title">WHAT'S HAPPENING AT COMVERSE?</h2>
+					<div class="wrapper">
+						<dl>
+							<dd>NEWS</dd>
+							<li>
+								<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
+								<a href=""><img id="news-image" src="../img/events/eventListIconNews.png" alt="news icon"> All news</a>
+							</li>
+						</dl>
+					</div>
+					<div class="wrapper">
+						<dl>
+							<dd>EVENTS</dd>
+							<li>
+								<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
+								<a href=""><img id="events-image" src="../img/events/eventListIconEvents.png" alt="events icon"> All events</a>
+							</li>
+							<li>
+								<p><span class="marked-date"><span class="day">04</span> <br> SEP</span> Comverse Regains Lead in Convergent Charging Market Regains Lead in</p>
+								<a href=""><img src="../img/events/eventListIconEvents.png" alt="events icon"> All events</a>
+							</li>
+						</dl>
+					</div>
+				</div>
 			</section>
 			<aside id="aside-sec">
-				<h2>SUCCESS STORIES</h2>
+				<h2 class="sec-title">SUCCESS STORIES</h2>
 				<article>
 					<section>
 						<img src="../img/success-stories/CB-JP-face.png" alt="story image" class="story-img">

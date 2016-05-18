@@ -12,6 +12,11 @@ a {
 	margin: 0 0 0 0;
 }
 
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
 .bg {
 	background-attachment: fixed;
 	background-size: cover;
@@ -24,12 +29,12 @@ a:hover {
 }
 
 .padding {
-	width: 970px;
-	margin: auto;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .main-nav>a {
-	float: left;
+	display: inline-block;
 }
 
 #bottom-right {
@@ -47,9 +52,14 @@ a:hover {
 	width:250px;
 	height: 150px;
 	margin: 20px 20px 20px 0;
-	float: left;
+	/*float: left;*/
+    display: inline-block;
 	padding: 20px;
 	border-radius: 15px;
+}
+
+#first-sec li:last-child {
+
 }
 
 .main-link {
@@ -68,15 +78,26 @@ a:hover {
 	top: 12px;
 }
 
-.main-link,
-.marked-date {
+.main-link {
 	background-color: blue;
 	color: white;
 	/*text-align: center;*/
 }
 
+.marked-date {
+    display: inline-block;
+	float: left;
+    background-color: #3398CB;
+    text-align: center;
+    line-height: 200%;
+}
+
 .day {
-	font-size: 2rem;
+	font-size: 3rem;
+    border-bottom-color: white;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    padding: 10px 5px;
 }
 
 h1,
@@ -90,29 +111,60 @@ h2 {
 
 #first-sec {
 	background-image: url("../img/slider/custom-experience.jpg");
-	background-position-y: -20px;
-}
-
-#second-sec {
-	background: lightblue;
 	height: 500px;
 }
 
-#second-sec h2 {
-	font-size: 2rem;
-	padding-top: 30px;
+#second-sec {
+	background: url("../img/backgrounds/solutions-bg.png") lightblue;
+	height: 460px;
+	/*box-sizing: border-box;*/
+	/*margin: auto;*/
 }
+
+#second-sec h2 {
+	padding-top: 30px;
+    text-align: center;
+}
+
+/*#second-sec .main-link {*/
+    /*display: inline-block;*/
+    /*margin: auto;*/
+/*}*/
+
 
 #third-sec {
 	background-image: url(../img/backgrounds/news-and-events-bg.jpg);
 }
 
-#third-sec li {
-	background-color: rgba(255,255,255,0.7);
+#third-sec p {
+	display: inline-block;
+	width: 300px;
+	background-color: rgba(255,255,255,0.4);
 }
 
-#third-sec dl {
+#third-sec .wrapper {
+	display: inline-block;
+
+}
+
+#third-sec li {
+	display: inline-block;
 	width: 300px;
+}
+
+#third-sec h2 {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+
+
+#second-sec .padding {
+    text-align: center;
+}
+
+.main-nav {
+    display: inline-block;
 }
 
 #social-imgs>img {
@@ -135,29 +187,53 @@ li {
 #first-sec h1,
 #first-sec p,
 #first-sec ul,
-#first-sec .main-link{
+.main-link {
 	position: relative;
 	/*left: 100px;*/
 }
 
-#first-sec h1 {
-	padding-top: 30px;
+.sec-title {
 	font-size: 2rem;
 }
 
+#first-sec h1 {
+	padding-top: 25px;
+	margin-bottom: 0px;
+}
+
 #first-sec p {
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 #first-sec .main-link {
-	margin-top: 20px;
+	margin-top:30px;
 }
 
 #first-sec ul {
 	/*width: 1100px;*/
 	list-style: none;
 	overflow: hidden;
-	margin-top: 90px;
+	margin-top: 60px;
+}
+
+#submit {
+    margin-top: 25px;
+	display: inline-block;
+    /*width: 160px;*/
+	border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    overflow: hidden;
+}
+
+#submit>input,
+#submit>button {
+    border-style: hidden;
+    padding-left: 4px;
+    height: 21px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 #aside-sec {
@@ -214,7 +290,18 @@ ul {
 }
 
 #top-sec nav {
-	float: left;
+    padding: 47px 20px 0px 20px;
+    float: left;
+}
+
+#top-sec nav>a {
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+
+#top-sec nav>a:first-child {
+    font-size: 0.8rem;
+    margin-left: 0;
 }
 
 #top-sec form {
@@ -222,15 +309,19 @@ ul {
 	margin-left: 20px;
 	width:240px;
 }
+#top-sec .padding>a{
+    display: inline-block;
+    float: left;
+}
 
 #top-sec label {
-	margin-left: 20px;
+	margin-left: 2px;
 }
 
 #top-sec input {
-	width:140px;
-	margin-top: 27px;
-	border-radius: 5px;
+	width:132px;
+	/*margin-top: 27px;*/
+	/*border-radius: 5px;*/
 }
 
 #news-image:hover {
