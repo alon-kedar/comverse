@@ -8,10 +8,18 @@ a {
 	text-decoration: none;
 }
 
+
+
 * {
 	margin: 0 0 0 0;
 }
 
+html {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
 *:before,
 *:after {
 	box-sizing: border-box;
@@ -22,6 +30,8 @@ a {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	overflow: auto;
+	width: 100%;
 }
 
 a:hover {
@@ -56,6 +66,7 @@ a:hover {
     display: inline-block;
 	padding: 20px;
 	border-radius: 10px;
+	vertical-align: top;
 }
 
 #first-sec li:last-child {
@@ -91,8 +102,10 @@ a:hover {
     text-align: center;
     line-height: 200%;
 	height: 70px;
-	padding-bottom: 10px;
+	/*padding-bottom: 10px;*/
 	margin-right: 10px;
+	/*padding: 0 10px;*/
+	/*todo: margin collapse*/
 }
 
 .day {
@@ -100,14 +113,12 @@ a:hover {
     border-bottom-color: white;
     border-bottom-style: dotted;
     border-bottom-width: 1px;
-    padding: 10px 5px;
-	padding-bottom: 10px;
+	line-height: 50px;
 }
 
-.month {
-	display:inline-block;
-	padding-top: 8px;
-}
+/*.month {*/
+	/*display:inline-block;*/
+/*}*/
 
 h1,
 h2 {
@@ -200,8 +211,6 @@ h2 {
 
 #aside-sec footer+img {
 	position: absolute;
-	padding-right: 10px;
-	padding-bottom: 0px;
 }
 
 /*#aside-sec ul {*/
@@ -223,6 +232,7 @@ h2 {
 .story img {
 	display: inline-block;
 	float: left;
+	position: absolute;
 }
 
 .story {
@@ -267,7 +277,7 @@ li {
 }
 
 #submit {
-    margin-top: 25px;
+    margin-top: 15px;
 	display: inline-block;
     /*width: 160px;*/
 	border-radius: 10px;
@@ -340,13 +350,22 @@ ul {
 }
 
 #top-sec nav {
-    padding: 47px 20px 0px 20px;
+    padding: 40px 20px 0px 20px;
     float: left;
 }
 
 #top-sec nav>a {
     font-size: 0.8rem;
-    margin-left: 20px;
+    margin-left: 10px;
+	padding-right: 10px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: black;
+}
+
+#top-sec nav>a:last-child {
+	border-right-width: 0px;
+	padding-right: 0px;
 }
 
 #top-sec nav>a:first-child {
