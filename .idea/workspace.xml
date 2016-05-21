@@ -4,7 +4,6 @@
     <list default="true" id="992d87df-08ca-4e1c-90d4-341ad087d535" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.html" afterPath="$PROJECT_DIR$/routes/index.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +38,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="87">
-              <caret line="455" column="14" selection-start-line="455" selection-start-column="14" selection-end-line="455" selection-end-column="14" />
+              <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -64,8 +63,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-28" />
-    <option name="y" value="53" />
+    <option name="x" value="9" />
+    <option name="y" value="370" />
     <option name="width" value="1370" />
     <option name="height" value="341" />
   </component>
@@ -218,15 +217,15 @@
       <workItem from="1463613989255" duration="1525000" />
       <workItem from="1463666199637" duration="7303000" />
       <workItem from="1463767736882" duration="6413000" />
-      <workItem from="1463791257663" duration="14587000" />
+      <workItem from="1463791257663" duration="17946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97489000" />
+    <option name="totallyTimeSpent" value="100848000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-28" y="53" width="1370" height="341" extended-state="1" />
+    <frame x="9" y="370" width="1370" height="341" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2533235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -507,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
-          <caret line="455" column="14" selection-start-line="455" selection-start-column="14" selection-end-line="455" selection-end-column="14" />
+          <caret line="201" column="18" selection-start-line="201" selection-start-column="18" selection-end-line="201" selection-end-column="18" />
           <folding />
         </state>
       </provider>
