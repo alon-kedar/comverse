@@ -39,7 +39,7 @@ a:hover {
 }
 
 .padding {
-	width: 1000px;
+	width: 960px;
 	margin: 0 auto;
 }
 
@@ -48,9 +48,14 @@ a:hover {
 }
 
 #bottom-right {
-    width:300px;
+	position: relative;
+	float: right;
+    width:240px;
+	height: 320px;
     /*float: left;*/
 	display: inline-block;
+	padding: 20px 10px;
+	position: relative;
 }
 
 #bottom-right {
@@ -59,18 +64,20 @@ a:hover {
 }
 
 #first-sec li {
-	width:250px;
-	height: 150px;
-	margin: 20px 20px 20px 0;
+	position: relative;
+	width:290px;
+	height: 160px;
+	margin: 10px 30px 10px 0;
 	/*float: left;*/
     display: inline-block;
-	padding: 20px;
+	padding: 10px 15px 0 20px;
+
 	border-radius: 10px;
 	vertical-align: top;
 }
 
 #first-sec li:last-child {
-
+	margin-right: 0;
 }
 
 .main-link {
@@ -81,6 +88,7 @@ a:hover {
 	width: 180px;
 	height:20px;
 	position: absolute;
+	text-align: left;
 }
 
 .main-link>img{
@@ -92,7 +100,8 @@ a:hover {
 .main-link {
 	background-color: blue;
 	color: white;
-	/*text-align: center;*/
+	height: auto;
+	width: 220px;
 }
 
 .marked-date {
@@ -101,7 +110,7 @@ a:hover {
     background-color: #3398CB;
     text-align: center;
     line-height: 200%;
-	height: 70px;
+	height: 80px;
 	/*padding-bottom: 10px;*/
 	margin-right: 10px;
 	/*padding: 0 10px;*/
@@ -146,10 +155,11 @@ h2 {
     text-align: center;
 }
 
-/*#second-sec .main-link {*/
-    /*display: inline-block;*/
-    /*margin: auto;*/
-/*}*/
+#second-sec .main-link {
+    display: inline-block;
+	text-align: center;
+	margin-top: 50px;
+}
 
 
 #third-sec {
@@ -165,10 +175,15 @@ h2 {
 #third-sec p {
 	display: inline-block;
 	width: 270px;
-	height: 80px;
+	height: 100px;
 	background-color: rgba(255,255,255,0.4);
 	position: absolute;
 	padding: 10px;
+	color: black;
+}
+
+#third-sec p:hover {
+	background-color: whitesmoke;
 }
 
 #third-sec .wrapper {
@@ -178,7 +193,7 @@ h2 {
 
 #third-sec li {
 	display: inline-block;
-	width: 320px;
+	width: 300px;
 }
 
 #third-sec h2 {
@@ -196,8 +211,9 @@ h2 {
     display: inline-block;
 }
 
-#social-imgs>img {
-	margin-top: 30px;
+#social-imgs {
+	position: absolute;
+
 }
 
 #aside-sec footer>h3,
@@ -291,7 +307,7 @@ li {
 #submit>button {
     border-style: hidden;
     padding-left: 4px;
-    height: 21px;
+    height: 22px;
     padding-top: 0;
     padding-bottom: 0;
 }
@@ -307,7 +323,7 @@ li {
 
 #first-sec li>a {
 	position: absolute;
-	top: 175px;
+	bottom: 10px;
 }
 
 #top-sec {
@@ -350,7 +366,7 @@ ul {
 }
 
 #top-sec nav {
-    padding: 40px 20px 0px 20px;
+    padding: 40px 20px 0px 40px;
     float: left;
 }
 
@@ -376,7 +392,7 @@ ul {
 #top-sec form {
 	float:left;
 	margin-left: 20px;
-	width:240px;
+	width:170px;
 }
 #top-sec .padding>a{
     display: inline-block;
@@ -388,27 +404,39 @@ ul {
 }
 
 #top-sec input {
-	width:132px;
+	width:130px;
 	/*margin-top: 27px;*/
 	/*border-radius: 5px;*/
 }
 
-#news-image:hover {
+.news-image:hover {
 	content: url("../img/events/eventListIconNews_hover.png");
 }
 
-#events-image:hover {
+.events-image:hover {
 	content: url("../img/events/eventListIconEvents_hover.png")
 }
 
 
 #bottom {
-	background: green;
+	position: relative;
+	background: #222222;
+	height: 320px;
 }
 
 #bottom dl {
 	float: left;
-    margin-right: 20px;
+    margin-right: 40px;
+	padding: 30px 0;
+}
+
+#copy{
+	position: absolute;
+	bottom: 10px;
+}
+
+#bottom dd {
+	padding-bottom: 15px;
 }
 
 
