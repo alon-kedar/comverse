@@ -75,7 +75,7 @@ a:hover {
 	background-color: #3398CB;
 	border: none;
 	position:relative;
-	top: -1px;
+	/*top: -1px;*/
 }
 
 #first-sec li {
@@ -164,13 +164,22 @@ h2 {
 
 #second-sec {
 	background: url("../img/backgrounds/solutions-bg.png") dodgerblue;
-	height: 460px;
-	/*box-sizing: border-box;*/
+	/*height: 460px;*/
 	/*margin: auto;*/
 }
 
+#second-sec .main-link {
+	margin-bottom: 40px;
+}
+
+#second-sec nav>a {
+	float: left;
+	width: 160px;
+}
+
 #second-sec h2 {
-	padding-top: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
     text-align: center;
 }
 
@@ -240,6 +249,7 @@ h2 {
 
 #bottom .title1 {
 	color: #4882A0;
+	font-size: 0.9rem;
 	font-weight: 600;
 	display: inline-block;
 	padding: 20px 0;
