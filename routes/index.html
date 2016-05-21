@@ -19,18 +19,20 @@
 					<a href="">NEWS & MEDIA</a>
 					<a href="">ABOUT COMVERSE</a>
 				</nav>
-				<form method="post">
-					<select>
-						<option value="EN" selected>EN</option>
-						<option value="HE">HE</option>
-					</select>
-					<label for="login">Customer login</label>
-					<div id="submit">
-						<input id="login"><button type="submit">
-						<img src="../img/icons/searchBtn.png" alt="search icon">
-						</button>
-					</div>
-				</form>
+				<div class="right">
+					<form method="post" id="top-right">
+						<select>
+							<option value="EN" selected>EN</option>
+							<option value="HE">HE</option>
+						</select>
+						<label for="login">Customer login</label>
+						<div id="submit">
+							<input id="login"><button type="submit">
+							<img src="../img/icons/searchBtn.png" alt="search icon">
+							</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -197,10 +199,10 @@
 						<li><a href="">careers</a></li>
 					</dl>
 				</section>
-				<div id="bottom-right">
+				<div id="bottom-right" class="right">
 					<article>
 						<a class="title1" href="">LATEST BLOG POSTS</a>
-						<p><span>18<br>July</span>Comverse regains lead in convergent charging market</p>
+						<p><span id="bottom-date"><span id="bottom-day">18</span><br>July</span>Comverse regains lead in convergent charging market</p>
 					</article>
 					<form method="post">
 						<label for="sign-up" class="title1">SUBSCRIBE TO COMVERSE</label>

@@ -49,20 +49,23 @@ a:hover {
 
 #bottom-right {
 	position: relative;
-	float: right;
     width:240px;
 	height: 320px;
     /*float: left;*/
 	display: inline-block;
-	padding: 20px 10px;
+	padding: 0 20px 0 20px;
 	position: relative;
+	text-align: center;
+	background: rgba(255,255,255,0.3);
 }
 
-#bottom-right {
-    text-align: center;
-    background: rgba(255,255,255,0.7);
+#bottom-right p {
+	text-align: left;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255,255,255,0.4);
+	border-bottom-width: 1px;
+	padding-bottom: 20px;
 }
-
 #first-sec li {
 	position: relative;
 	width:290px;
@@ -213,11 +216,19 @@ h2 {
 
 #social-imgs {
 	position: absolute;
+	bottom: 5px;
 
 }
 
-#aside-sec footer>h3,
+
 .title1 {
+	color: #4882A0;
+	font-weight: 600;
+	display: inline-block;
+	padding: 20px 0;
+}
+
+#aside-sec footer>h3{
 	color: blue;
 }
 
@@ -366,7 +377,7 @@ ul {
 }
 
 #top-sec nav {
-    padding: 40px 20px 0px 40px;
+    padding: 50px 20px 0px 50px;
     float: left;
 }
 
@@ -391,8 +402,7 @@ ul {
 
 #top-sec form {
 	float:left;
-	margin-left: 20px;
-	width:170px;
+	width:200px;
 }
 #top-sec .padding>a{
     display: inline-block;
@@ -404,7 +414,7 @@ ul {
 }
 
 #top-sec input {
-	width:130px;
+	width:140px;
 	/*margin-top: 27px;*/
 	/*border-radius: 5px;*/
 }
@@ -427,7 +437,11 @@ ul {
 #bottom dl {
 	float: left;
     margin-right: 40px;
-	padding: 30px 0;
+	padding: 20px 0;
+}
+
+#bottom input {
+	width: 120px;
 }
 
 #copy{
@@ -439,5 +453,25 @@ ul {
 	padding-bottom: 15px;
 }
 
+.right {
+	float: right;
+}
 
+#bottom-date {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+	vertical-align: top;
+	float: left;
+	margin-right: 10px;
+	font-size: 1.4rem;
+	font-weight: 500;
+	/*line-height: 20px;*/
+}
+
+#bottom-day {
+	font-size: 2.2rem;
+	line-height: 30px;
+	font-weight: 700;
+}
 
