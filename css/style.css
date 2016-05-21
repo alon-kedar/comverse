@@ -75,7 +75,7 @@ a:hover {
 	background-color: #3398CB;
 	border: none;
 	position:relative;
-	top: -2px;
+	top: -1px;
 }
 
 #first-sec li {
@@ -451,7 +451,7 @@ ul {
 
 #bottom dl {
 	float: left;
-    margin-right: 40px;
+    margin-right: 80px;
 	padding: 20px 0;
 }
 
