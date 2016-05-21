@@ -1,17 +1,18 @@
 body {
 	font-family: "Open Sans", Georgia, Serif;
 	font-size: 100%;
-	font-weight: 200;
+	font-weight: 500;
 }
+
+* {
+	margin: 0 0;
+}
+/** {*/
+	/*margin-top: 0;*/
+/*}*/
 
 a {
 	text-decoration: none;
-}
-
-
-
-* {
-	margin: 0 0 0 0;
 }
 
 html {
@@ -49,7 +50,7 @@ a:hover {
 
 #bottom-right {
 	position: relative;
-    width:240px;
+    width:230px;
 	height: 320px;
     /*float: left;*/
 	display: inline-block;
@@ -66,6 +67,17 @@ a:hover {
 	border-bottom-width: 1px;
 	padding-bottom: 20px;
 }
+
+#bottom-right button {
+	font-size: 0.7rem;
+	height: 24px;
+	width: 60px;
+	background-color: #3398CB;
+	border: none;
+	position:relative;
+	top: -2px;
+}
+
 #first-sec li {
 	position: relative;
 	width:290px;
@@ -147,7 +159,7 @@ h2 {
 }
 
 #second-sec {
-	background: url("../img/backgrounds/solutions-bg.png") lightblue;
+	background: url("../img/backgrounds/solutions-bg.png") dodgerblue;
 	height: 460px;
 	/*box-sizing: border-box;*/
 	/*margin: auto;*/
@@ -230,10 +242,6 @@ h2 {
 
 #aside-sec footer>h3{
 	color: blue;
-}
-
-#second-sec footer {
-	display: inline-block;
 }
 
 #aside-sec footer+img {
@@ -388,6 +396,7 @@ ul {
 	border-right-style: solid;
 	border-right-width: 1px;
 	border-right-color: black;
+	color:black;
 }
 
 #top-sec nav>a:last-child {
@@ -415,6 +424,7 @@ ul {
 
 #top-sec input {
 	width:140px;
+	float: left;
 	/*margin-top: 27px;*/
 	/*border-radius: 5px;*/
 }
@@ -440,8 +450,11 @@ ul {
 	padding: 20px 0;
 }
 
-#bottom input {
+#bottom-right input {
 	width: 120px;
+	border: none;
+	height: 24px;
+	/*ask alex about avoiding space without changing tags structure*/
 }
 
 #copy{
