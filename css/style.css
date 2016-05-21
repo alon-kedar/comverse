@@ -51,7 +51,7 @@ a:hover {
 #bottom-right {
 	position: relative;
     width:230px;
-	height: 320px;
+	height: 280px;
     /*float: left;*/
 	display: inline-block;
 	padding: 0 20px 0 20px;
@@ -238,7 +238,7 @@ h2 {
 }
 
 
-.title1 {
+#bottom .title1 {
 	color: #4882A0;
 	font-weight: 600;
 	display: inline-block;
@@ -446,7 +446,7 @@ ul {
 #bottom {
 	position: relative;
 	background: #222222;
-	height: 320px;
+	height: 280px;
 }
 
 #bottom dl {
@@ -468,7 +468,12 @@ ul {
 }
 
 #bottom dd {
-	padding-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+#bottom {
+	font-weight: 400;
+	font-size: 0.8rem;
 }
 
 .right {
@@ -482,13 +487,13 @@ ul {
 	vertical-align: top;
 	float: left;
 	margin-right: 10px;
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 500;
 	/*line-height: 20px;*/
 }
 
 #bottom-day {
-	font-size: 2.2rem;
+	font-size: 2rem;
 	line-height: 30px;
 	font-weight: 700;
 }
